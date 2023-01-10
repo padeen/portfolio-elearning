@@ -1,38 +1,27 @@
-# create-svelte
+# Elearning
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Interactive web environment for learning about Git Version Control. Content used to create this Elearning website is available from the following website https://git-scm.com/book/en/v2 and is released under the Creative Commons Attribution Non Commercial Share Alike 3.0 license.
 
-## Creating a project
+## Highlights
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Contrasting background colors to provide visual cohesion to different entities of information
+- Course information is presented through text, images and videos
+- Interactive quizzes to test the learner's knowledge
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Technologies used
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+<p float="left">
+<img src="./static/svelte-logo.svg" alt="svelte logo">
+<img src="./static/ts-logo-128.svg" alt="typescript logo">
+<img src="./static/Firebase_Logo_Logomark.svg" alt="firebase logo">
+</p>
 
-## Developing
+- Typescript
+- Svelte Frontend Component Framework
+- Sveltekit for routing and session management
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Firebase:
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Authentication
+- Persisting users
+- Storing static assets using Cloud Firestore
