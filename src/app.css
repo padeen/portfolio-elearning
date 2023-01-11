@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	header {
+		@apply mx-auto mt-12 max-w-3xl;
+	}
+
+	article {
+		@apply mb-8 px-20 pt-24 pb-16 max-w-4xl shadow-md bg-white;
+	}
+
+	article.inner {
+		@apply max-w-3xl;
+	}
+
+	#movie {
+		@apply max-w-3xl;
+	}
+
+	#questions {
+		@apply max-w-5xl mb-16 bg-stone-100;
+	}
+
+	h1 {
+		@apply font-semibold uppercase text-4xl mb-20;
+	}
+
+	h2 {
+		@apply font-medium text-2xl mb-8;
+	}
+
+	p {
+		@apply leading-loose;
+	}
+
+	p.question {
+		@apply mb-16 mx-16 py-20 px-24 shadow bg-white;
+	}
+
+	ol li {
+		@apply mb-12;
+	}
+
+	ul li {
+		@apply mb-8;
+	}
+
+	p li span {
+		@apply uppercase font-semibold;
+	}
+
+	button {
+		@apply mt-10;
+	}
+
+	video {
+		@apply mb-8;
+	}
+}
