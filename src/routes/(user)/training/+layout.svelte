@@ -22,7 +22,7 @@
 	</div>
 </div>
 <div class="flex justify-start">
-	<div class="flex-col pt-6 px-6 h-auto border-r-2 space-y-2.5 bg-stone-100">
+	<div class="flex-col pt-6 px-6 h-auto border-r-2 space-y-2.5 hidden xl:block bg-stone-100">
 		<div class:font-semibold={active === 'onderdeel1'}>
 			<a href="/training/onderdeel1">Welkom</a>
 		</div>
@@ -42,7 +42,7 @@
 			<a href="/training/onderdeel6">Wat je geleerd hebt</a>
 		</div>
 	</div>
-	<main class="flex flex-col justify-center items-center px-16 py-14 w-full bg-stone-100">
+	<main class="flex flex-col justify-center items-center xl:px-16 py-14 w-full bg-stone-100">
 		<slot />
 	</main>
 </div>
