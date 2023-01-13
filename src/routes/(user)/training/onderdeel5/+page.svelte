@@ -66,7 +66,7 @@
 		>
 	</div>
 </div>
-<div class="max-w-5xl mb-16 bg-stone-100">
+<section id="questions">
 	{#if questions[0]}
 		<p
 			class="question"
@@ -123,7 +123,7 @@
 			>{questionTexts[questionCounter]}</button
 		>
 	</div>
-</div>
+</section>
 <section class:hidden={hide_final_text} class="section-text lg:mt-8 mb-40">
 	<p>
 		David woont nu al twee jaar in het huis met de vele ramen, met het groote grasveld, waar

@@ -10,12 +10,14 @@
 	const email = data.email;
 </script>
 
-<div class="flex justify-between items-center py-1.5 pr-8">
+<div
+	class="flex flex-col lg:flex-row justify-between items-center py-1.5 pr-8 space-y-2 lg:space-y-2"
+>
 	<div class="pl-6 w-32">
 		<img src="/images/logo.svg" alt="logo gedragskeuze" />
 	</div>
 	<div
-		class="flex flex-col lg:flex-row justify-start items-center space-x-4 lg:space-x-0 uppercase font-semibold"
+		class="flex flex-col lg:flex-row justify-start items-center space-x-0 lg:space-x-4 uppercase font-semibold"
 	>
 		<div>nog 90 dagen actief</div>
 		<div class="lowercase">
