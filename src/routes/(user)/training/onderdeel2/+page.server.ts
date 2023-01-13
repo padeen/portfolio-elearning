@@ -34,7 +34,7 @@ let content1 =
     </video>
   </div>
 
-  <div class="mb-20">
+  <div class="mb-20 px-4 lg:px-0">
     <p>
       Zijn er tijdens het kijken dingen opgevallen? Er volgen nu een aantal vragen. Neem voor iedere vraag de tijd om er goed over na te denken.
     </p>

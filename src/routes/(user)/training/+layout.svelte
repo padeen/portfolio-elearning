@@ -14,7 +14,9 @@
 	<div class="pl-6 w-32">
 		<img src="/images/logo.svg" alt="logo gedragskeuze" />
 	</div>
-	<div class="flex justify-start items-center space-x-4 uppercase font-semibold">
+	<div
+		class="flex flex-col lg:flex-row justify-start items-center space-x-4 lg:space-x-0 uppercase font-semibold"
+	>
 		<div>nog 90 dagen actief</div>
 		<div class="lowercase">
 			{email}

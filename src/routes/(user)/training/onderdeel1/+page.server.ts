@@ -51,7 +51,7 @@ let content =
   </div>
 </div>
 
-<div class="mb-12 lg:mb-16 px-4 lg:px-0 max-w-3xl">
+<section class="section-text">
   <h2 class="pb-4">Je kunt het niet vergeten</h2>
 
   <p>
@@ -59,7 +59,7 @@ let content =
     je moest blozen, waarbij je met je oogen knipperen moest, je werd warm en verward.... je voorhoofd
     besloeg. Waarom slaat elk woord als bliksem bij je in? Eéns was genoeg en het kleeft je aan.
   </p>
-</div>
+</section>
 
 <article>
   <div class="inner">
